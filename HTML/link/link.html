@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi-VN">
+    <head>
+        <title>HTML link - Nguyen Tran Dat - cre by w3schools.com</title>
+        <link rel="stylesheet" href="linkStyle.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale1.0">
+    </head>
+    <body>
+        <!-- heading -->
+        <div id = "header">
+            <a href="../learnHTML/learnHTML.html">
+                <img src="../image/logo.png" alt="logo">
+            </a>
+            <h1 >LEARN HTML</h1>
+            <hr>
+        </div>
+
+        <!-- content -->
+        <h1>HTML link</h1>
+        <p>
+            &nbsp;&nbsp; - HTML link are hyper link. <br>
+            &nbsp;&nbsp; - a link doesn't have to be text. link can be img or any other html element. <br>
+            &nbsp;&nbsp; - syntax: <code class="codeBody">&lt;a href="url" target = "text" &gt; linktext &lt;/a&gt; </code> <br>
+            &nbsp;&nbsp; - the most important attribute of the <code class="codeBody">&lt;a&gt;</code> is the <em class="emBody">&lt;href&gt;</em> attribute;
+            &nbsp;&nbsp; - linktext is the part visible to the reader. <br>
+            &nbsp;&nbsp; - the <em class="emBody">target</em> attribute specify where to open the link document.
+            <ul style="margin-left: 1rem;">
+                <li><code class="codeBody">_self</code>: default. open the window/tab as it is click </li>
+                <li><code class="codeBody">_blank</code>: open the new window/tab</li>
+                <li><code class="codeBody">_parent</code>: open in the parent fame</li>
+                <li><code class="codeBody">_top</code>: open in the full body of the window</li>
+            </ul>
+        </p>
+        <hr>
+        <h1>using an img as a link</h1>
+        <p style="margin-left: 2rem;">
+            - to use an img as a link, just push <code class="codeBody">&lt;img&gt;</code> tag inside the <code class="codeBody">&lt;a&gt;</code> tag. <br>
+            <code class="codeBody">
+                &lt;a href='URL'&gt; <br>
+                &lt;img src="URL" alt="alt"&gt; <br>
+                &lt;/a&gt;
+            </code>
+        </p>
+        <hr>
+        <h1>link title</h1>
+        <p style="margin-left: 2rem;">
+            - the title specify information about an element. <br>
+            - the information is most show when the mouse move over element. <br>
+            - syntax:<code class="codeBody"> &lt;a href="URL" title="tooltip"&gt;content&lt;/a&gt;</code>
+        </p>
+        <hr>
+        <h1>css link</h1>
+        <p>
+            <ol style="list-style-type: circle; color: rgb(169, 107, 107);">
+                <li>a:link -> text link</li>
+                <li>a:visited -> visited link</li>
+                <li>a:active -> active link</li>
+                <li>a:hover -> mouse over a link</li>
+            </ol>
+        </p>
+        <hr>
+        <h1>link bookmark</h1>
+        <p style="margin-left: 2rem;">
+            - bookmark can usefull if a web page is long <br>
+            - to create to bookmark, then add link to it <br>
+            - when click, web will scroll down or scroll up to the location with bookmark <br>
+            - using <em>id</em> attribute create bookmark.  <br>
+            - syntax: <code class="codeBody">&lt;tagname id="value"&gt;</code> <br>
+            - use the <em>href</em> attribute to link the bookmark. <br>
+            - syntax: <code class="codeBody">&lt;tagname href="#value"&gt;</code>
+        </p>
+        <h1></h1>
+    </body>
+</html>

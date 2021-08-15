@@ -1,0 +1,29 @@
+$myColor: red;
+$myBackground-color: rgb(225, 211, 211); 
+$myFont: 'Time new Roman';
+$myFontSize: 100%;
+
+@mixin setupFont {
+    font-size: $myFontSize;
+    font-family: $myFont;
+}
+
+// setup <code> element
+.codeBody{
+    @include setupFont();
+    color: $myColor;
+    background-color: $myBackground-color;
+}
+.codeHeading{
+    @include setupFont();
+}
+
+// setup <em> element 
+.emBody{
+    @include setupFont();
+    color: $myColor;
+    background-color: $myBackground-color;
+}
+.emHeading{
+    @include setupFont();
+}

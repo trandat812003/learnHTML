@@ -1,0 +1,79 @@
+a:link {
+  color: #767676;
+  background-color: transparent;
+  text-decoration: none; }
+
+a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: none; }
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none; }
+
+a:visited {
+  color: purple;
+  background-color: transparent;
+  text-decoration: none; }
+
+body {
+  margin-left: 1rem;
+  background-color: #fcf0cf; }
+
+p {
+  font-size: 100%;
+  font-family: "Time new Roman";
+  margin: 1rem; }
+
+hr {
+  border: 0.5px solid #aaa3a3;
+  border-collapse: collapse; }
+
+table, th, td {
+  border: 1px solid #ffbb00;
+  border-collapse: collapse; }
+
+.codeBody {
+  font-size: 100%;
+  font-family: "Time new Roman";
+  color: red;
+  background-color: #e1d3d3; }
+
+.codeHeading {
+  font-size: 100%;
+  font-family: "Time new Roman"; }
+
+.emBody {
+  font-size: 100%;
+  font-family: "Time new Roman";
+  color: red;
+  background-color: #e1d3d3; }
+
+.emHeading {
+  font-size: 100%;
+  font-family: "Time new Roman"; }
+
+#header {
+  background-color: darkorange; }
+  #header img {
+    padding: 0px;
+    width: 3.5rem;
+    height: 3.5rem;
+    float: left; }
+  #header h1 {
+    color: blue; }
+
+#footer {
+  text-align: center;
+  background-color: darkorange; }
+  #footer h4 {
+    text-align: center;
+    color: blue; }
+    #footer h4 a img {
+      padding: 0px;
+      width: 3.5rem;
+      height: 3.5rem; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi-VN">
+    <head>
+        <title>HTML picture - Nguyen Tran Dat - cre by w3schools.com</title>
+        <link rel="stylesheet" href="imgStyle.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale1.0">
+    </head>
+    <body>
+        <!-- heading -->
+        <div id = "header">
+            <a href="../learnHTML/learnHTML.html">
+                <img src="../image/logo.png" alt="logo">
+            </a>
+            <h1 >LEARN HTML</h1>
+            <hr>
+        </div>
+
+        <!-- content -->
+        <h1>HTML <code class = "codeHeading">&lt;picture&gt;</code> element</h1>
+        <p>
+            the HTML <code class="codeBody">picture</code> element give web developer more flexibility specify img resource. <br>
+            the <code class="codeBody">picture</code> element contain one or more <code class="codeBody">source</code> element, 
+            each referring to different img the <em class="emBody">srcset</em> attribute -> the browser can choose the img best fit the current view and/or device. <br>
+            each <code class="codeBody">source</code> element has a <em class="emBody">media</em> attribute the define when img is the most suitable. <br>
+            syntax: <br>
+            <code class="codeBody">
+                &lt;picture&gt; <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;source media="(property: value)" srcset="url"&gt; <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;source media="(property: value)" srcset="url"&gt; <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;source media="(property: value)" srcset="url"&gt; <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;img src="url" alt="text"&gt; <br>
+                &lt;/picture&gt;
+            </code> 
+        </p>
+        <h1>When to use the Picture element</h1>
+        <ol>
+            <li><p>
+                <h2>Bandwidth</h2>
+                if you have a small device or screen, it's not necessary to load large img.
+                the browser will use the first <code class="codeBody">&lt;source&gt;</code> element with matching attribute value, and ignore any of follow element
+            </p></li>
+            <li><p>
+                <h2>Format support</h2>
+                some browser or device not support img format. By using the <code class="codeBody">&lt;picture&gt;</code> element, you can add img of all format, 
+                and the browser will the first format it recognizes, ignore any of the follow element.  
+            </p></li>
+        </ol>
+    </body>
+</html>

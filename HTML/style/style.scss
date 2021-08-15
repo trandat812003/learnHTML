@@ -1,0 +1,38 @@
+@import "setupLink";
+@import "setup";
+@import "setupClass";
+
+$myBackground: darkorange;
+$myColor: blue;
+
+@mixin img {
+    padding: 0px;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+#header{
+    background-color: $myBackground;
+    img{
+        @include img();
+        float: left;
+    }
+    h1{
+        color: $myColor;
+    }
+}
+
+#footer{
+    text-align: center;
+    background-color: $myBackground;
+
+    h4{
+        text-align: center;
+        color: $myColor;
+        a{
+            img{
+                @include img();
+            }
+        }
+    }
+}

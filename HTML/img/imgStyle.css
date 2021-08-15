@@ -1,0 +1,14 @@
+@import url(../style/style.css);
+.HTMLpicture {
+  color: black;
+  background-color: #fcf0cf; }
+  .HTMLpicture .HTMLa {
+    color: blue;
+    text-decoration: underline; }
+
+ol li ul li {
+  margin-left: 1rem; }
+  ol li ul li em {
+    color: red; }
+
+/*# sourceMappingURL=imgStyle.css.map */

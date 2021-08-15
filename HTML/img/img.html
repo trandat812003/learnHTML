@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="vi-VN">
+    <head>
+        <title>HTML img - Nguyen Tran Dat - cre by w3schools.com</title>
+        <link rel="stylesheet" href="imgStyle.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale1.0">
+    </head>
+    <body>
+        <!-- heading -->
+        <div id = "header">
+            <a href="../learnHTML/learnHTML.html">
+                <img src="../image/logo.png" alt="logo">
+            </a>
+            <h1>LEARN HTML</h1>
+            <hr>
+        </div>
+
+        <!-- content -->
+        <h1>HTML img syntax</h1>
+        <p>
+            <code class="codeBody">
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html&gt;<br>
+                &nbsp;&nbsp;&lt;body&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;img src="URL" alt="some-text"&gt;<br>
+                &nbsp;&nbsp;&lt;/body&gt;<br>
+                &lt;html&gt;<br>
+            </code>
+        </p>
+        <!---------------------------------------------------------------------------------->
+        <hr>
+        <h1>The alt attribute</h1>
+        <p>
+            the alt attribute specify an alternate text for an img, if the img can't be display <br>
+            if browser can't find img, it will display the alt text.
+        </p>
+        <!------------------------------------------------------------------------------------>
+        <hr>
+        <h1>Img size</h1>
+        <p>
+            you can use the <em>style</em> attribute to specify the width and height. <br>
+            syntax: <code class="codeBody">&lt;img src="URL" alt="some-text" style="width:value;height: value"&gt;<br></code>
+        </p>
+        <!-------------------------------------------------------------------------------------->
+        <hr>
+        <h1>Using an img as a link</h1>
+        <p>
+            you can use an img as a link, simply nest the <code class="codeBody">&lt;img&gt;</code> tag inside the <code class="codeBody">&lt;a&gt;</code> <br>
+            syntax: <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<code class="codeBody">&lt;a href="url-link"&gt;</code> <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code class="codeBody">&lt;img src="url-img" alt="text"&gt;</code><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<code class="codeBody">&lt;/a&gt;</code>
+        </p>
+        <!----------------------------------------------------------------------------------------->
+        <hr>
+        <h1>Img floating</h1>
+        <p>
+            the CSS float property to let the img float <br>
+            the img can float to the right or the left of a text <br>
+            syntax: <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<code class="codeBody">&lt;img src="url" alt="text" style="float: right"&gt;</code> : the img will float to the right of the text <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<code class="codeBody">&lt;img src="url" alt="text" style="float: left"&gt;</code> : the img will float to the left of the text <br>
+        </p>
+        <!------------------------------------------------------------------------------------------>
+        <hr>
+        <h1>Img map</h1>
+        <p><code class="codeBody">
+            &lt;img src="url" alt="alt" usemap="#workmap"&gt; <br>
+            &lt;map name="#workmap"&gt; <br>
+            &lt;area shape = "text" coords = "number" alt = "text" href = "url"&gt; <br>
+            &lt;/map&gt; <br>
+        </code></p>
+        <!---------------------------------------------------------------------------------------->
+        <p>
+            <ol>
+                <li><p>
+                    <h2>The Img</h2>
+                    <p>
+                        The img insert <code class="codebody">&lt;img&gt;</code> tag. the only difference from other img is that must <em>usemap</em> attribute <br>
+                        The <code class="codeBody">usemap</code> value start with a hash tag <em>#</em> follow by the name of img map, and relationship between the img and the img map. <br>
+                        syntax: <code class="codeBody">&lt;img src="" alt="" usemap="#workmap"&gt;</code>
+                    </p>
+                </p></li>
+                <!---------------------------------------------------------------------------->
+                <li><p>
+                    <h2>Create img map</h2>
+                    <p>
+                        Add a <code class="codeBody">map</code> element <br>
+                        The <code class="codeBody">map</code> element use create img map, and link to the img by use require <em>name</em> attribute <br>
+                        syntax: <code class ="codeBody">&lt;map name="#workmap"&gt;</code>
+                    </p>
+                </p></li>
+                <!----------------------------------------------------------------------------->
+                <li><p>
+                    <h2>The area:</h2>
+                    <p>
+                        a clickable areas define using an <code class="codeBody">&lt;area&gt;</code> element <br>
+                    </p>
+                    <ul>
+                        <h3>Shape</h3>
+                        <li><em>rect</em> - define a rectangular region</li>
+                        <li><em>circle</em> - define a circle region</li>
+                        <li><em>poly</em> - define a polygonal region</li>
+                        <li><em>default</em> - define the entire region</li>
+                    </ul>
+                </p></li>
+            </ol>
+        </p>
+        <!---------------------------------------------------------------------------------->
+        <hr>
+        <h1>Background img on HTML element</h1>
+        <p>
+            add background img on a HTML element, use HTML <em>style</em> attribute and CSS <em>background-img</em> property <br>
+            syntax: <code class="codeBody">&lt;tagname style="background-img: url('url') "</code>
+        </p>
+        <!-------------------------------------------------------------------------->
+        <hr>
+        <h1>background img on page</h1>
+        <p>
+            specify the background img on the <code>&lt;body&gt;</code> element <br>
+            syntax: <code class="codeBody">&lt;body style="background-img: url('url') "</code>
+        </p>
+        <!------------------------------------------------------------------------------------->
+        <hr>
+        <h1>background repeat</h1>
+        <p>
+            if background ing small element, img will repeat itself, horizon and vertical, until it reacher the end of the element <br>
+            to avoid the background from repeat itself, set <em>background-repeat</em> property <em>no-repeat</em> <br>
+            syntax: <br>
+            <code class="codeBody">
+                &lt;style&gt; <br>
+                &nbsp;&nbsp; element { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;background-repeat: no-repeat; <br>
+                &nbsp;&nbsp;} <br>
+                &lt;/style&gt;
+            </code>
+        </p>
+        <!--------------------------------------------------------------------------------------->
+        <hr>
+        <h1>background cover</h1>
+        <p>
+            if you want background img entire, can set <em>background-size</em> property to <em>cover</em> <br> 
+            also, to make sure the entire element no the stretching( the img will keep original proportion), set the <em>background-attachment</em> property to <em>fixed</em> <br>
+            <code class="codeBody">
+                &lt;style&gt; <br>
+                &nbsp;&nbsp; element { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;background-repeat: no-repeat; <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;background-attachment: fixed; <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;background-size: cover; <br>
+                &nbsp;&nbsp;} <br>
+                &lt;/style&gt;
+            </code>
+        </p>
+        <!-------------------------------------------------------------------------------------->
+        <hr>
+        <h1>background stretch</h1>
+        <p>
+            if you want the background img to stretch to fit the entire element, you can set the <em>background-size</em> property to <em>100% 100%</em> <br>
+            <code class="codeBody">
+                &lt;style&gt; <br>
+                &nbsp;&nbsp; element { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;background-repeat: no-repeat; <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;background-attachment: fixed; <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;background-size: 100% 100%; <br>
+                &nbsp;&nbsp;} <br>
+                &lt;/style&gt;
+            </code>
+        </p>
+    <hr>
+    <em class="HTMLpicture" style="float: right;">explore more <a class="HTMLa" href="picture.html">HTML picture</a></em>
+    </body>
+</html>

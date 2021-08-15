@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAQ,+BAAoB;AAExB,cAAC;EACG,KAAK,EAAE,IAAI;EACX,eAAe,EAAE,SAAS",
+"sources": ["colorAndStyle.scss"],
+"names": [],
+"file": "colorAndStyle.css"
+}
