@@ -1,0 +1,35 @@
+@import "mixin";
+
+a{
+    background-color: transparent;
+    text-decoration: none;
+    .setupFont();
+    &:link{
+        color: rgb(21, 253, 0);
+    }
+    &:visited{
+        color: rgb(255, 0, 255);
+    }
+    &:hover{
+        color: red;
+        text-decoration: underline;
+    }
+    &:active{
+        color: black;
+        text-decoration: unset;
+    }
+}
+
+body{
+    background-color: #fcf0cf;
+}
+
+p{
+    .setupFont();
+    margin-left: 2rem;
+}
+
+hr {
+    border: 0.5px solid rgb(170, 163, 163);
+    border-collapse: collapse;
+}

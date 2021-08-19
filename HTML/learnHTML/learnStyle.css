@@ -1,3 +1,7 @@
-@import url("../style/style.css");
-
-/*# sourceMappingURL=learnStyle.css.map */
+@import "../style/setup.css";
+@import "../style/setupID.css";
+@import "../style/setupClass.css";
+a {
+  font-size: 2rem;
+  font-style: initial;
+}

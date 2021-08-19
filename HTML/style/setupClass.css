@@ -1,0 +1,61 @@
+.setupFont {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100%;
+}
+.codeBody {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100%;
+  color: red;
+  background-color: #e1d3d3;
+}
+.codeHeading {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100%;
+  color: red;
+  background-color: transparent;
+}
+.emBody {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100%;
+  color: red;
+  background-color: #e1d3d3;
+}
+.emHeading {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100%;
+  color: red;
+  background-color: transparent;
+}
+.spanNote {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100%;
+  color: black;
+  background-color: yellow;
+}
+.emNote {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100%;
+  color: black;
+  background-color: yellow;
+}
+.tableDescribes table,
+.tableDescribes th,
+.tableDescribes tr,
+.tableDescribes td {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100%;
+  border-collapse: collapse;
+  border: 1px solid #e5ff00;
+  padding: 5px;
+}
+.tableDescribes th {
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+.tableDescribes tr:nth-child(even) {
+  background-color: #cecece;
+}
+.tableDescribes tr:nth-child(odd) {
+  background-color: honeydew;
+}

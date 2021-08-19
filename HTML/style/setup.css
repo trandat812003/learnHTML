@@ -1,0 +1,36 @@
+.setupFont {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100%;
+}
+a {
+  background-color: transparent;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100%;
+}
+a:link {
+  color: #15fd00;
+}
+a:visited {
+  color: #ff00ff;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+a:active {
+  color: black;
+  text-decoration: unset;
+}
+body {
+  background-color: #fcf0cf;
+}
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100%;
+  margin-left: 2rem;
+}
+hr {
+  border: 0.5px solid #aaa3a3;
+  border-collapse: collapse;
+}

@@ -1,0 +1,39 @@
+@import "mixin";
+
+@myBackground: darkorange;
+@myColor: blue;
+
+#header{
+    background-color: @myBackground;
+    border: 2.5px solid #aaa3a3;
+    img{
+        .IMG(3.5rem, 3.5rem);
+        float: left;
+    }
+    h1{
+        color: @myColor;
+        font-size: 145%;
+    }
+ }
+
+#footer{
+    background-color: transparent;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    h4{
+        text-align: center;
+        span{
+            color: @myColor; 
+            font-size: 120%; 
+        }
+        a{
+            img{
+                .IMG(2.5rem, 2.5rem);
+            }
+         }
+    }
+}

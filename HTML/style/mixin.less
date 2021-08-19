@@ -1,0 +1,16 @@
+.setupFont{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+}
+
+.Body (@color, @background){
+    .setupFont();
+    color: @color;
+    background-color: @background;
+}
+
+.IMG (@width, @height){
+    padding: 0px;
+    width: @width;
+    height: @height;
+}

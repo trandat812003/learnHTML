@@ -1,0 +1,39 @@
+.setupFont {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100%;
+}
+#header {
+  background-color: darkorange;
+  border: 2.5px solid #aaa3a3;
+}
+#header img {
+  padding: 0px;
+  width: 3.5rem;
+  height: 3.5rem;
+  float: left;
+}
+#header h1 {
+  color: blue;
+  font-size: 145%;
+}
+#footer {
+  background-color: transparent;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+#footer h4 {
+  text-align: center;
+}
+#footer h4 span {
+  color: blue;
+  font-size: 120%;
+}
+#footer h4 a img {
+  padding: 0px;
+  width: 2.5rem;
+  height: 2.5rem;
+}

@@ -1,0 +1,49 @@
+@import "mixin";
+
+@myColor: red;
+@myBackground: rgb(225, 211, 211);
+
+.codeBody{
+    .Body(@myColor, @myBackground);
+}
+.codeHeading{
+    .Body(@myColor, transparent);
+}
+
+.emBody{
+    .Body(@myColor, @myBackground);
+}
+
+.emHeading{
+    .Body(@myColor, transparent);
+}
+
+.spanNote{
+    .Body(black, yellow);
+}
+
+.emNote{
+    .Body(black, yellow);
+}
+
+.tableDescribes{
+    table, th, tr, td{
+        .setupFont();
+        border-collapse: collapse;
+        border: 1px solid rgb(229, 255, 0); 
+        padding: 5px;
+    }  
+    th{
+        text-align: center;
+        color: white;
+        background-color: black;
+    }
+    tr{
+        &:nth-child(even){
+            background-color: rgb(206, 206, 206);
+        }
+        &:nth-child(odd){
+            background-color: honeydew;
+        }
+    }
+}
