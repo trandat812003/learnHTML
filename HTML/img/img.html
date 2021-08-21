@@ -5,7 +5,9 @@
         <link rel="stylesheet" href="imgStyle.css">
         <link rel="shortcut icon" href="../image/logo.png" />
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale1.0">
+        <meta name="author" content="w3schools.com">
+        <meta name="writer" content="Nguyen Tran Dat">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <!-- heading -->
@@ -13,13 +15,20 @@
             <a href="../learnHTML/learnHTML.html">
                 <img src="../image/logo.png" alt="logo">
             </a>
-            <h1>LEARN HTML</h1>
+            <a href="../home.html"><h1>LEARN HTML</h1></a>
         </div>
 
         <!-- content -->
+        <h1>HTML img</h1>
+        <p>
+            Img can be improve design and the appearance of web page. <br>
+        </p>
+        <hr>
+
+        <!-- ------------------------------------------ -->
         <h1>HTML img syntax</h1>
         <p>
-            <code class="codeBody">
+            <code class="code">
                 &lt;!DOCTYPE html&gt;<br>
                 &lt;html&gt;<br>
                 &nbsp;&nbsp;&lt;body&gt;<br>
@@ -28,44 +37,49 @@
                 &lt;html&gt;<br>
             </code>
         </p>
-        <!---------------------------------------------------------------------------------->
         <hr>
+
+        <!---------------------------------------------------------------------------------->
         <h1>The alt attribute</h1>
         <p>
-            the alt attribute specify an alternate text for an img, if the img can't be display <br>
-            if browser can't find img, it will display the alt text.
+            The <em class="code">alt</em> attribute specify an alternate text for an img, if the img can't be display <br>
+            If browser can't find img, it will display the alt text.
         </p>
-        <!------------------------------------------------------------------------------------>
         <hr>
+
+        <!------------------------------------------------------------------------------------>
         <h1>Img size</h1>
         <p>
-            you can use the <em>style</em> attribute to specify the width and height. <br>
-            syntax: <code class="codeBody">&lt;img src="URL" alt="some-text" style="width:value;height: value"&gt;<br></code>
+            You can use the <em class="code">style</em> attribute to specify the width and height. <br>
+            Syntax: <code class="code">&lt;img src="URL" alt="some-text" style="width:value;height: value"&gt;<br></code>
         </p>
-        <!-------------------------------------------------------------------------------------->
         <hr>
+
+        <!-------------------------------------------------------------------------------------->
         <h1>Using an img as a link</h1>
         <p>
-            you can use an img as a link, simply nest the <code class="codeBody">&lt;img&gt;</code> tag inside the <code class="codeBody">&lt;a&gt;</code> <br>
-            syntax: <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;<code class="codeBody">&lt;a href="url-link"&gt;</code> <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code class="codeBody">&lt;img src="url-img" alt="text"&gt;</code><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;<code class="codeBody">&lt;/a&gt;</code>
+            You can use an img as a link, simply nest the <code class="code">&lt;img&gt;</code> tag inside the <code class="code">&lt;a&gt;</code> <br>
+            Syntax: <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<code class="code">&lt;a href="url-link"&gt;</code> <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code class="code">&lt;img src="url-img" alt="text"&gt;</code><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<code class="code">&lt;/a&gt;</code>
         </p>
-        <!----------------------------------------------------------------------------------------->
         <hr>
+
+        <!----------------------------------------------------------------------------------------->
         <h1>Img floating</h1>
         <p>
-            the CSS float property to let the img float <br>
-            the img can float to the right or the left of a text <br>
-            syntax: <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;<code class="codeBody">&lt;img src="url" alt="text" style="float: right"&gt;</code> : the img will float to the right of the text <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;<code class="codeBody">&lt;img src="url" alt="text" style="float: left"&gt;</code> : the img will float to the left of the text <br>
+            The CSS <em class="code">float</em> property to let the img float <br>
+            The img can float to the right or the left of a text <br>
+            Syntax: <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<code class="code">&lt;img src="url" alt="text" style="float: right"&gt;</code> : the img will float to the right of the text <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<code class="code">&lt;img src="url" alt="text" style="float: left"&gt;</code> : the img will float to the left of the text <br>
         </p>
-        <!------------------------------------------------------------------------------------------>
         <hr>
+
+        <!------------------------------------------------------------------------------------------>
         <h1>Img map</h1>
-        <p><code class="codeBody">
+        <p><code class="code">
             &lt;img src="url" alt="alt" usemap="#workmap"&gt; <br>
             &lt;map name="#workmap"&gt; <br>
             &lt;area shape = "text" coords = "number" alt = "text" href = "url"&gt; <br>
@@ -77,25 +91,25 @@
                 <li><p>
                     <h2>The Img</h2>
                     <p>
-                        The img insert <code class="codebody">&lt;img&gt;</code> tag. the only difference from other img is that must <em>usemap</em> attribute <br>
-                        The <code class="codeBody">usemap</code> value start with a hash tag <em>#</em> follow by the name of img map, and relationship between the img and the img map. <br>
-                        syntax: <code class="codeBody">&lt;img src="" alt="" usemap="#workmap"&gt;</code>
+                        The img insert <code class="code">&lt;img&gt;</code> tag. the only difference from other img is that must <em class="code">usemap</em> attribute <br>
+                        The <code class="code">usemap</code> value start with a hash tag <em>#</em> follow by the name of img map, and relationship between the img and the img map. <br>
+                        Syntax: <code class="code">&lt;img src="" alt="" usemap="#workmap"&gt;</code>
                     </p>
                 </p></li>
                 <!---------------------------------------------------------------------------->
                 <li><p>
                     <h2>Create img map</h2>
                     <p>
-                        Add a <code class="codeBody">map</code> element <br>
-                        The <code class="codeBody">map</code> element use create img map, and link to the img by use require <em>name</em> attribute <br>
-                        syntax: <code class ="codeBody">&lt;map name="#workmap"&gt;</code>
+                        Add a <code class="code">map</code> element <br>
+                        The <code class="code">map</code> element use create img map, and link to the img by use require <em class="code">name</em> attribute <br>
+                        Syntax: <code class ="code">&lt;map name="#workmap"&gt;</code>
                     </p>
                 </p></li>
                 <!----------------------------------------------------------------------------->
                 <li><p>
                     <h2>The area:</h2>
                     <p>
-                        a clickable areas define using an <code class="codeBody">&lt;area&gt;</code> element <br>
+                        A clickable areas define using an <code class="code">&lt;area&gt;</code> element <br>
                     </p>
                     <ul>
                         <h3>Shape</h3>
@@ -107,28 +121,31 @@
                 </p></li>
             </ol>
         </p>
-        <!---------------------------------------------------------------------------------->
         <hr>
+
+        <!---------------------------------------------------------------------------------->
         <h1>Background img on HTML element</h1>
         <p>
-            add background img on a HTML element, use HTML <em>style</em> attribute and CSS <em>background-img</em> property <br>
-            syntax: <code class="codeBody">&lt;tagname style="background-img: url('url') "</code>
+            Add background img on a HTML element, use HTML <em class="code">style</em> attribute and CSS <em class="code">background-img</em> property <br>
+            Syntax: <code class="code">&lt;tagname style="background-img: url('url') "</code>
         </p>
+        <hr>
+
         <!-------------------------------------------------------------------------->
-        <hr>
-        <h1>background img on page</h1>
+        <h1>Background img on page</h1>
         <p>
-            specify the background img on the <code>&lt;body&gt;</code> element <br>
-            syntax: <code class="codeBody">&lt;body style="background-img: url('url') "</code>
+            Specify the background img on the <code class="code">&lt;body&gt;</code> element <br>
+            Syntax: <code class="code">&lt;body style="background-img: url('url') "</code>
         </p>
-        <!------------------------------------------------------------------------------------->
         <hr>
-        <h1>background repeat</h1>
+
+        <!------------------------------------------------------------------------------------->
+        <h1>Background repeat</h1>
         <p>
-            if background ing small element, img will repeat itself, horizon and vertical, until it reacher the end of the element <br>
-            to avoid the background from repeat itself, set <em>background-repeat</em> property <em>no-repeat</em> <br>
-            syntax: <br>
-            <code class="codeBody">
+            If background ing small element, img will repeat itself, horizon and vertical, until it reacher the end of the element <br>
+            To avoid the background from repeat itself, set <em class="code">background-repeat</em> property <em class="code">no-repeat</em> <br>
+            Syntax: <br>
+            <code class="code">
                 &lt;style&gt; <br>
                 &nbsp;&nbsp; element { <br>
                     &nbsp;&nbsp;&nbsp;&nbsp;background-repeat: no-repeat; <br>
@@ -136,13 +153,15 @@
                 &lt;/style&gt;
             </code>
         </p>
-        <!--------------------------------------------------------------------------------------->
         <hr>
-        <h1>background cover</h1>
+
+        <!--------------------------------------------------------------------------------------->
+        <h1>Background cover</h1>
         <p>
-            if you want background img entire, can set <em>background-size</em> property to <em>cover</em> <br> 
-            also, to make sure the entire element no the stretching( the img will keep original proportion), set the <em>background-attachment</em> property to <em>fixed</em> <br>
-            <code class="codeBody">
+            If you want background img entire, can set <em class="code">background-size</em> property to <em class="code">cover</em> <br> 
+            Also, to make sure the entire element no the stretching( the img will keep original proportion), 
+            set the <em class="code">background-attachment</em> property to <em class="code">fixed</em> <br>
+            <code class="code">
                 &lt;style&gt; <br>
                 &nbsp;&nbsp; element { <br>
                     &nbsp;&nbsp;&nbsp;&nbsp;background-repeat: no-repeat; <br>
@@ -152,12 +171,13 @@
                 &lt;/style&gt;
             </code>
         </p>
-        <!-------------------------------------------------------------------------------------->
         <hr>
-        <h1>background stretch</h1>
+
+        <!-------------------------------------------------------------------------------------->
+        <h1>Background stretch</h1>
         <p>
-            if you want the background img to stretch to fit the entire element, you can set the <em>background-size</em> property to <em>100% 100%</em> <br>
-            <code class="codeBody">
+            If you want the background img to stretch to fit the entire element, you can set the <em class="code">background-size</em> property to <em class="code">100% 100%</em> <br>
+            <code class="code">
                 &lt;style&gt; <br>
                 &nbsp;&nbsp; element { <br>
                     &nbsp;&nbsp;&nbsp;&nbsp;background-repeat: no-repeat; <br>
@@ -170,7 +190,7 @@
         <hr>
 
         <!-- -------------------------------------------- -->
-        <em class="emNote" style="float: right; background-color: transparent;">explore more <a href="picture.html">HTML picture</a></em>
+        <em class="note" style="float: right; background-color: transparent;">Explore more <a href="picture.html">HTML picture</a></em>
 
         <!-- footer -->
         <div id = "footer">

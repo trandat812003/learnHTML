@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="vi-VN">
     <head>
-        <title>HTML table - Nguyen Tran Dat - cre by w3schools.com</title>
+        <title>HTML table</title>
         <link rel="stylesheet" href="tableStyle.css">
         <link rel="shortcut icon" href="../image/logo.png" />
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale1.0">
+        <meta name="author" content="w3schools.com">
+        <meta name="writer" content="Nguyen Tran Dat">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <!-- heading -->
@@ -13,25 +15,32 @@
             <a href="../learnHTML/learnHTML.html">
                 <img src="../image/logo.png" alt="logo">
             </a>
-            <h1 >LEARN HTML</h1>
+            <a href="../home.html"><h1>LEARN HTML</h1></a>
         </div>
 
         <!-- content -->
+        <h1>HTML table</h1>
+        <p>
+            HTML table allow web developer to arrange data into row and column. 
+        </p>
+        <hr>
+
+        <!-- ----------------------------------------------------------------- -->
         <h1>Define HTML table</h1>
         <p>
-            the <code class="codeBody">&lt;table&gt;</code> tag define HTML table <br>
-        </p>
-            <ul>
-                <li><code class="codeBody">&lt;tr&gt;</code> tag define table row</li>
-                <li><code class="codeBody">&lt;th&gt;</code> tag define table header</li>
-                <li><code class="codeBody">&lt;td&gt;</code> tag define table data/cell</li>
+            The <code class="code">&lt;table&gt;</code> tag define HTML table <br>
+            <ul style="margin-left: 2rem;">
+                <li><code class="code">&lt;tr&gt;</code> tag define table row</li>
+                <li><code class="code">&lt;th&gt;</code> tag define table header</li>
+                <li><code class="code">&lt;td&gt;</code> tag define table data/cell</li>
             </ul>
-        <p>
-            they can contain all sort of HTML element, text, img, list, other table and more. <br>
-            syntax: <br>
         </p>
         <p>
-            <code class="codeBody">
+            They can contain all sort of HTML element, text, img, list, other table and more. <br>
+            Syntax: <br>
+        </p>
+        <p>
+            <code class="code">
                 &lt;table&gt; <br>
                 &nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt; <br>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt; text-header &lt;th&gt; <br>
@@ -48,22 +57,24 @@
                 &lt;/table&gt; <br>
             </code>
         </p>
-            
-            <em class="emNote">By default, text in <code class="codeBody">&lt;th&gt;</code> element are bold and center <br>
-            By default, text in <code class="codeBody">&lt;td&gt;</code> element are regular and left-align</em>
+            <em class="note">
+                By default, text in <code class="code">&lt;th&gt;</code> element are bold and center <br>
+                By default, text in <code class="code">&lt;td&gt;</code> element are regular and left-align
+            </em>
         <hr>
+
         <!-- --------------------------------------- -->
         <h1>Add border</h1>
         <p>
-            add a border to a table, use CSS <em class="emBody">border</em> property. <br>
-            syntax: <br> 
-            <code class="codeBody">
+            Add a border to a table, use CSS <em class="code">border</em> property. <br>
+            Syntax: <br> 
+            <code class="code">
                 table, th, tr { <br>
                     &nbsp;&nbsp; border: value solid value;(border 1px solid red) <br>
                 } <br>
             </code>
-            <span class="spanNote">
-                remember to define border the table and the table cell 
+            <span class="note">
+                Remember to define border the table and the table cell 
             </span>
         </p>
         <hr>
@@ -71,11 +82,11 @@
         <!-- -------------------------------------------- -->
         <h1>Add cell padding</h1>
         <p>
-            cell padding specify space between cell content and its border. <br>
-            if you not specify padding, the table cell will display without padding. <br>
-            to set padding, the use CSS <code class="codeBody">padding</code> attribute. <br>
-            syntax: <br>
-            <code class="codeBody">
+            Cell padding specify space between cell content and its border. <br>
+            If you not specify padding, the table cell will display without padding. <br>
+            To set padding, the use CSS <code class="code">padding</code> attribute. <br>
+            Syntax: <br>
+            <code class="code">
                 th, tr { <br>
                     &nbsp;&nbsp; padding: value;(padding: 15px) <br>
                 } <br>
@@ -84,12 +95,12 @@
         <hr>
 
         <!-- ------------------------------------------------- -->
-        <h1>left-align heading</h1>
+        <h1><code class="code" style="background-color: transparent;">left-align</code> heading</h1>
         <p>
             By default, table heading are bole and center. <br>
-            to left-align the table heading, use CSS <code class="codeBody">text-align</code> property. <br>
-            syntax: <br>
-            <code class="codeBody">
+            To left-align the table heading, use CSS <code class="code">text-align</code> property. <br>
+            Syntax: <br>
+            <code class="code">
                 th { <br>
                     &nbsp;&nbsp;text-align: left; <br>
                 }
@@ -101,9 +112,9 @@
         <h1>Add border space</h1>
         <p>
             Border space specify the space between cell. <br>
-            to set border space, use CSS <code class="codeBody">border-space</code> property. <br>
-            syntax:
-            <code class="codeBody">
+            To set border space, use CSS <code class="code">border-space</code> property. <br>
+            Syntax:
+            <code class="code">
                 table{ <br>
                     &nbsp;&nbsp;border-space: value;(border-space: 5px;) <br>
                 }
@@ -112,11 +123,11 @@
         <hr>
 
         <!-- --------------------------------- -->
-        <h1>cell that span  many column</h1>
+        <h1>Cell that span  many column</h1>
         <p>
-            to make a cell span more than once column, use <code class="codeBody">colspan</code> property. <br>
-            syntax: <br>
-            <code class="codeBody">
+            To make a cell span more than once column, use <code class="code">colspan</code> property. <br>
+            Syntax: <br>
+            <code class="code">
                 &lt;table&gt; <br>
                 &nbsp;&nbsp;&lt;tr&gt; <br>
                 &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;text&lt;/th&gt;<br>
@@ -133,11 +144,11 @@
         <hr>
 
         <!-- ------------------------------------------- -->
-        <h1>cell that span many row</h1>
+        <h1>Cell that span many row</h1>
         <p>
-            to make a cell span more that once row, use <code class="codeBody">colspan</code> property. <br> 
-            Ex: <br>
-            <code class="codeBody">
+            To make a cell span more that once row, use <code class="code">colspan</code> property. <br> 
+            e.g: <br>
+            <code class="code">
                 &lt;table&gt; <br>
                 &nbsp;&nbsp;&lt;tr&gt; <br>
                 &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;text&lt;/th&gt; <br>
@@ -162,9 +173,9 @@
         <!-- ---------------------------------------------------- -->
         <h1>Add caption</h1>
         <p>
-            to a add  caption to a table, use the <code class="codeBody">&lt;caption&gt;</code> tag. <br>
-            syntax: <br>
-            <code class="codeBody">
+            To a add  caption to a table, use the <code class="code">&lt;caption&gt;</code> tag. <br>
+            Syntax: <br>
+            <code class="code">
                 &lt;table&gt; <br>
                 &nbsp;&nbsp;&lt;caption&gt;text&lt;/caption&gt; <br>
                 &nbsp;&nbsp;&lt;tr&gt; <br>
@@ -177,14 +188,14 @@
         <!-- ------------------------------------------------------ -->
         <h1>A specify style for one table</h1>
         <p>
-            To define a specify style for one particular table, add an <code class="codeBody">id</code> attribute to the table. <br>
+            To define a specify style for one particular table, add an <code class="code">id</code> attribute to the table. <br>
             Ex: <br>
-            <code class="codeBody">
+            <code class="code">
                 &lt;table id="nameID"&gt; <br>
                 &lt;/table&gt; <br>
             </code> 
             Add and more style <br>
-            <code class="codeBody">
+            <code class="code">
                 #nameID tr: nth-child(even){ <br>
                     -- code -- <br>
                 } 

@@ -24,11 +24,15 @@ a:active {
 }
 body {
   background-color: #fcf0cf;
+  margin-left: 5px;
 }
 p {
   font-family: 'Times New Roman', Times, serif;
   font-size: 100%;
-  margin-left: 2rem;
+  margin: 1rem;
+}
+abbr {
+  color: red;
 }
 hr {
   border: 0.5px solid #aaa3a3;

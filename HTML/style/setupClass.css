@@ -2,37 +2,19 @@
   font-family: 'Times New Roman', Times, serif;
   font-size: 100%;
 }
-.codeBody {
+.code {
   font-family: 'Times New Roman', Times, serif;
   font-size: 100%;
   color: red;
   background-color: #e1d3d3;
 }
-.codeHeading {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 100%;
-  color: red;
-  background-color: transparent;
-}
-.emBody {
+.em {
   font-family: 'Times New Roman', Times, serif;
   font-size: 100%;
   color: red;
   background-color: #e1d3d3;
 }
-.emHeading {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 100%;
-  color: red;
-  background-color: transparent;
-}
-.spanNote {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 100%;
-  color: black;
-  background-color: yellow;
-}
-.emNote {
+.note {
   font-family: 'Times New Roman', Times, serif;
   font-size: 100%;
   color: black;

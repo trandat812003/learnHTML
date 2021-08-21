@@ -13,18 +13,25 @@
             <a href="../learnHTML/learnHTML.html">
                 <img src="../image/logo.png" alt="logo">
             </a>
-            <h1 >LEARN HTML</h1>
+            <a href="../home.html"><h1>LEARN HTML</h1></a>
         </div>
 
         <!-- content -->
-        <h1>HTML <code class = "codeHeading">&lt;picture&gt;</code> element</h1>
+        <h1>HTML picture</h1>
         <p>
-            the HTML <code class="codeBody">picture</code> element give web developer more flexibility specify img resource. <br>
-            the <code class="codeBody">picture</code> element contain one or more <code class="codeBody">source</code> element, 
-            each referring to different img the <em class="emBody">srcset</em> attribute -> the browser can choose the img best fit the current view and/or device. <br>
-            each <code class="codeBody">source</code> element has a <em class="emBody">media</em> attribute the define when img is the most suitable. <br>
-            syntax: <br>
-            <code class="codeBody">
+            The HTML <code class = "code">&lt;picture&gt;</code> element allow you display different picture for different device or screen size.
+        </p>
+        <hr>
+
+        <!-- --------------------------------------------- -->
+        <h1>HTML <code class = "code" style="background-color: transparent;">&lt;picture&gt;</code> element</h1>
+        <p>
+            The HTML <code class="code">picture</code> element give web developer more flexibility specify img resource. <br>
+            The <code class="code">picture</code> element contain one or more <code class="code">source</code> element, 
+            each referring to different img the <em class="code">srcset</em> attribute -> the browser can choose the img best fit the current view and/or device. <br>
+            Each <code class="code">source</code> element has a <em class="code">media</em> attribute the define when img is the most suitable. <br>
+            Syntax: <br>
+            <code class="code">
                 &lt;picture&gt; <br>
                 &nbsp;&nbsp;&nbsp;&nbsp;&lt;source media="(property: value)" srcset="url"&gt; <br>
                 &nbsp;&nbsp;&nbsp;&nbsp;&lt;source media="(property: value)" srcset="url"&gt; <br>
@@ -37,12 +44,12 @@
         <ol>
             <li><p>
                 <h2>Bandwidth</h2>
-                if you have a small device or screen, it's not necessary to load large img.
-                the browser will use the first <code class="codeBody">&lt;source&gt;</code> element with matching attribute value, and ignore any of follow element
+                If you have a small device or screen, it's not necessary to load large img.
+                The browser will use the first <code class="code">&lt;source&gt;</code> element with matching attribute value, and ignore any of follow element
             </p></li>
             <li><p>
                 <h2>Format support</h2>
-                some browser or device not support img format. By using the <code class="codeBody">&lt;picture&gt;</code> element, you can add img of all format, 
+                Some browser or device not support img format. By using the <code class="code">&lt;picture&gt;</code> element, you can add img of all format, 
                 and the browser will the first format it recognizes, ignore any of the follow element.  
             </p></li>
         </ol>
